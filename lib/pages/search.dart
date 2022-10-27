@@ -25,12 +25,23 @@ class _SearchState extends State<Search> {
             autocorrect: true,
             autofocus: true,
             decoration: InputDecoration(
-              border: OutlineInputBorder(
+              enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(10),
+                borderSide: BorderSide(color: Colors.red.shade700),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.red.shade700),
                 borderRadius: BorderRadius.circular(10),
               ),
               contentPadding: const EdgeInsets.all(20),
               labelText: 'Search film',
-              prefixIcon: const Icon(Icons.search),
+              labelStyle: const TextStyle(
+                color: Colors.white,
+              ),
+              prefixIcon: const Icon(
+                Icons.search,
+                color: Colors.white,
+              ),
             ),
             keyboardType: TextInputType.text,
             textInputAction: TextInputAction.done,

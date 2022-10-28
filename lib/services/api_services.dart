@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:catalog_movie_app/models/movie_response.dart';
 import 'package:http/http.dart' as http;
 

@@ -21,18 +21,13 @@ class _IntroTwoState extends State<IntroTwo> {
               Image.asset('images/Onboarding 2.png', width: 250, height: 180),
               const SizedBox(height: 16),
               Text(
-                'Tempat Persinggahan',
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-              Text(
-                'Untuk Anda',
+                'A Stopover For You',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               const SizedBox(height: 12.0),
               Text(
-                'karena film dan rebahan dalah perpaduan yang sempurna',
+                'Because film and lying down are the perfect blend',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.titleSmall,
               ),

@@ -16,21 +16,21 @@ class IntroOne extends StatelessWidget {
               Image.asset('images/Onboarding 1.png', width: 250, height: 180),
               const SizedBox(height: 16.0),
               Text(
-                'Temukan Film Keinginan',
+                'Find The Movie of Your',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               Text(
-                'Anda Disini',
+                'Desire Here',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               const SizedBox(height: 8.0),
               Text(
-                'sebarkan sorak sorai membaca katalogmu',
+                'spread the cheers of reading your catalog',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.titleSmall,
               ),
               Text(
-                'kapan saja dan dimana saja',
+                'anytime and anywhere',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.titleSmall,
               ),
